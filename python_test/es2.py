@@ -1,0 +1,8 @@
+print("inserisci il primo numero:")
+n1 = input("primo numero: ")
+print(f"Il primo numero è: ")
+print("inserisci il secondo numero:")
+n2 = input("secondo numero: ")
+print(f"Il secondo numero è: ")
+somma = int(n1) + int(n2)
+print(f"La somma dei numeri è: ")
