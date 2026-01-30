@@ -1,7 +1,7 @@
 """
 Creare un programma che blocchi l'accesso finché l'utente non inserisce la parola magica.
 
-Scrivi uno script che:Definisca una variabile password_corretta (es: "python123").
+Scrivi uno script che:Definisca una variabile password_corretta (es: "pythoa23").
 Usi un ciclo while per continuare a chiedere all'utente: "Inserisci la password per entrare:".
 Se la password è sbagliata, deve stampare "Accesso negato! Riprova.".
 Il ciclo deve interrompersi solo quando la password inserita è corretta.
