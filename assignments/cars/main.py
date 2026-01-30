@@ -17,22 +17,22 @@ def main():
                 marca = input("Inserisci la marca:\n")
                 modello = input("Inserisci il modello:\n")
                 auto = VeicoloBenzina(marca, modello)
-                auto.descrivi()
+                print(auto.descrivi())
             if scelta == 2:
                 marca = input("Inserisci la marca:\n")
                 modello = input("Inserisci il modello:\n")
                 auto = VeicoloDiesel(marca, modello)
-                auto.descrivi()
+                print(auto.descrivi())
             if scelta == 3:
                 marca = input("Inserisci la marca:\n")
                 modello = input("Inserisci il modello:\n")
                 auto = VeicoloGPL(marca, modello)
-                auto.descrivi()
+                print(auto.descrivi())
             if scelta == 4:
                 marca = input("Inserisci la marca:\n")
                 modello = input("Inserisci il modello:\n")
                 auto = VeicoloElettrico(marca, modello)
-                auto.descrivi()
+                print(auto.descrivi())
 
 
         elif scelta == 2:
