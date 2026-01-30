@@ -15,7 +15,7 @@ while True:
         break
     if len(testo)%2:
         #print(f"Il testo colorato: \n {Fore.CYAN}{Style.BRIGHT}{testo}")
-        colora_testo(testo)
+        print(colora_testo(testo))
     else:
         #print(f"Il testo colorato: \n {Back.GREEN}{Fore.RED}{testo}")
-        colora_testo(testo)
+        print(colora_testo(testo))
